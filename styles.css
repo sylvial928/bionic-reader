@@ -1,0 +1,11 @@
+.bionic-text {
+    display: inline;
+}
+
+.bionic-word {
+    display: inline;
+}
+
+.bionic-word strong {
+    font-weight: 700;
+}
