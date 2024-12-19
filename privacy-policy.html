@@ -32,6 +32,13 @@
             padding-top: 20px;
             border-top: 1px solid #eee;
         }
+        ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
     </style>
 </head>
 <body>
@@ -42,6 +49,31 @@
         This privacy policy explains how the Bionic Reader Chrome extension handles user data. 
         We are committed to protecting your privacy and being transparent about our practices.
     </p>
+
+    <h2>Single Purpose Description</h2>
+    <p>
+        The Bionic Reader extension serves a single purpose: to enhance reading speed and comprehension by transforming text into Bionic Reading format, which highlights key parts of words to guide the reader's eye movement.
+    </p>
+
+    <h2>Permission Justification</h2>
+    <ul>
+        <li>
+            <strong>activeTab</strong>: This permission is required to modify the text display on the current webpage. We use it to:
+            <ul>
+                <li>Access and modify the text content of the active tab</li>
+                <li>Apply Bionic Reading formatting to the text</li>
+                <li>This permission is essential for the core functionality of transforming text into Bionic Reading format</li>
+            </ul>
+        </li>
+        <li>
+            <strong>storage</strong>: This permission is required to:
+            <ul>
+                <li>Save user preferences (such as whether the feature is enabled)</li>
+                <li>Store formatting settings (bold percentage and minimum word length)</li>
+                <li>Maintain consistent user experience across browser sessions</li>
+            </ul>
+        </li>
+    </ul>
 
     <h2>Data Collection and Usage</h2>
     <p>
@@ -55,15 +87,6 @@
         and your formatting preferences). These settings are stored locally on your device and are not transmitted anywhere.
     </p>
 
-    <h2>Permissions</h2>
-    <p>
-        The extension requires the following permissions:
-    </p>
-    <ul>
-        <li><strong>activeTab</strong>: To modify the text display on web pages you visit</li>
-        <li><strong>storage</strong>: To save your preferences locally</li>
-    </ul>
-
     <h2>Third-Party Services</h2>
     <p>
         This extension does not use any third-party services or analytics tools. It operates entirely within your browser.
@@ -74,14 +97,23 @@
         Since no data is collected or stored externally, there are no security risks related to data breaches or unauthorized access to user data.
     </p>
 
+    <h2>Limited Use Disclosure</h2>
+    <p>
+        This extension's use and transfer of information received from Google APIs adheres to the 
+        <a href="https://developer.chrome.com/docs/webstore/program_policies/#limited_use" target="_blank">Chrome Web Store User Data Policy</a>, 
+        including the Limited Use requirements.
+    </p>
+
     <h2>Changes to This Policy</h2>
     <p>
         If we make any changes to this privacy policy, we will update this page and the version number in the Chrome Web Store.
+        Users will be notified of any significant changes through the extension's update notes.
     </p>
 
     <h2>Contact</h2>
     <p>
-        If you have any questions about this privacy policy or the extension, please contact us through the Chrome Web Store support channel.
+        If you have any questions about this privacy policy or the extension, please contact us through the Chrome Web Store support channel
+        or create an issue on our <a href="https://github.com/sylvial928/bionic-reader" target="_blank">GitHub repository</a>.
     </p>
 
     <div class="last-updated">
